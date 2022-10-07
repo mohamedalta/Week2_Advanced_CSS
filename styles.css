@@ -1,1 +1,199 @@
-/* Paste your css code here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Dhamaadka reset csska*/
+@import url('https://fonts.googleapis.com/css?family=open+sans');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(14, 13, 13);
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(13, 12, 14);
+    align-items: center;
+    padding: 0px;
+    list-style: none;
+}
+h2{
+    color: rgb(4, 250, 25);
+    font-size: 40px;
+    padding-right: 83px;
+}
+.city{
+    color: violet;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+img{
+ width: 500px;
+ height: 200px;
+ 
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+}
+
+
+header nav ul li a {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    padding:20;
+    padding-left: 60;
+}
+header nav ul li :hover{
+    color: rebeccapurple;
+    background-color: rgb(3, 190, 50);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: sienna;
+    padding: 20px;
+    margin-top: 20px;
+}
+.about h2{
+    font-size: 50px;
+    color: rgb(42, 53, 48);
+    margin:10px 0 ;
+    font-weight: bold;
+    
+}
+.events{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+}
+
+.events{
+font-size: 20px;
+margin: 10px 0;
+font-weight: bold;
+
+}
+
+.events ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    color: rgb(52, 11, 165);
+    
+
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(88, 110, 173);
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    .images h2{
+        font-size: 50px;
+        color: rgb(42, 53, 48);
+        margin:10px 0 ;
+        font-weight: bold;
+        
+    }
+    .all-images img{
+        margin: 10px 0;
+        width: 350px;
+
+    }
+    footer p{
+        text-align: center;
+        color: red;
+    }
+
+@media (min-width:600px)
+{
+
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: yellowgreen;
+        padding: 30px;
+    }
+    .all-images{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 10px;
+    }
+}
